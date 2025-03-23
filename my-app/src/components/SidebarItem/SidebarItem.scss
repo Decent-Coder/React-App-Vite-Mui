@@ -1,0 +1,29 @@
+@import '@/styles/variables';
+
+.sidebar-item {
+  display: flex;
+  align-items: center;
+  gap: $spacing-md;
+  cursor: pointer;
+  padding: $spacing-sm $spacing-md;
+  border-radius: $radius-medium;
+  transition: background-color 0.2s ease;
+
+  &:hover {
+    background-color: $color-background;
+  }
+
+  &.active {
+    background-color: $color-primary-light;
+    color: $color-primary;
+
+    svg {
+      color: $color-primary;
+    }
+  }
+
+  .icon {
+    font-size: 20px;
+    color: $color-text-light;
+  }
+}

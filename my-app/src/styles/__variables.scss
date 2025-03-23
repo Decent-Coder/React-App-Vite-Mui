@@ -1,0 +1,62 @@
+// ===== Fonts =====
+$font-primary: 'Poppins', sans-serif;
+
+// ===== Font Sizes =====
+$font-size-heading-large: 26px;
+$font-size-heading-medium: 22px;
+$font-size-body: 16px;
+$font-size-small: 14px;
+$font-size-tiny: 12px;
+
+// ===== Font Weights =====
+$font-weight-regular: 400;
+$font-weight-medium: 500;
+$font-weight-semibold: 600;
+$font-weight-bold: 700;
+
+// ===== Line Heights =====
+$line-height-tight: 1;
+$line-height-normal: 1.4;
+$line-height-relaxed: 1.6;
+
+// ===== Letter Spacing =====
+$letter-spacing-small: 0.01em;
+$letter-spacing-medium: 0.05em;
+
+// ===== Colors =====
+$color-primary: #5932ea;           // Sidebar highlight purple
+$color-primary-light: #ebe9ff;     // Light purple background
+$color-accent-gradient-start: #a55ff8;
+$color-accent-gradient-end: #7464ff;
+
+$color-background: #f5f5f5;
+$color-white: #ffffff;
+$color-card-bg: #ffffff;
+$color-sidebar-bg: #ffffff;
+
+$color-text-main: #0d0d0d;
+$color-text-subtle: #7a7a7a;
+$color-text-light: #b5b5b5;
+
+$color-success: #4caf50;
+$color-error: #f44336;
+
+$color-border-light: #f0f0f0;
+$color-border: #e0e0e0;
+
+// ===== Shadows =====
+$box-shadow-card: 0 4px 14px rgba(108, 99, 255, 0.1);
+$box-shadow-small: 0 2px 8px rgba(0, 0, 0, 0.04);
+
+// ===== Border Radius =====
+$radius-small: 8px;
+$radius-medium: 12px;
+$radius-large: 16px;
+$radius-extra-large: 24px;
+
+// ===== Spacing =====
+$spacing-xs: 4px;
+$spacing-sm: 8px;
+$spacing-md: 16px;
+$spacing-lg: 24px;
+$spacing-xl: 32px;

@@ -1,0 +1,26 @@
+@import '@/styles/variables';
+
+.upgrade-card {
+  background: linear-gradient(135deg, $color-primary, $color-accent-gradient-end);
+  border-radius: $radius-large;
+  padding: $spacing-lg;
+  margin: $spacing-xl 0;
+  text-align: center;
+  color: $color-white;
+  box-shadow: 0 4px 14px rgba(108, 99, 255, 0.3);
+
+  .upgrade-btn {
+    background-color: $color-white !important;
+    color: $color-primary !important;
+    text-transform: none !important;
+    border-radius: 30px !important;
+    padding: $spacing-xs $spacing-md !important;
+    font-weight: $font-weight-semibold !important;
+    font-size: 0.85rem !important;
+    transition: all 0.3s ease;
+
+    &:hover {
+      background-color: $color-primary-light !important;
+    }
+  }
+}
